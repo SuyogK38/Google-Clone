@@ -13,7 +13,6 @@ function Home() {
   const [state, setState] = useState("");
   const searchGoogle = (e) => {
     navigate("/search", { state: { state } });
-    navigate("/");
   };
   return (
     <div className="home">
